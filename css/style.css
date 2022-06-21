@@ -89,7 +89,7 @@ body {
 .card__header-subtext {
   font-weight: 300;
   color: hsl(215deg, 51%, 70%);
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 .card__main ul {
   list-style-type: none;
