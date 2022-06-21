@@ -74,6 +74,7 @@ body {
 }
 .card__image-overlay:hover {
   opacity: 0.6;
+  border-radius: 1rem;
 }
 .card__image-overlay:hover .card__image-overlay-eye {
   opacity: 1;

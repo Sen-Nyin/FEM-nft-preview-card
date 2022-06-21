@@ -45,6 +45,7 @@
     }
     &__image-overlay:hover {
         opacity: 0.6;
+        border-radius: 1rem;
     }
     &__image-overlay:hover &__image-overlay-eye {
         opacity: 1;
