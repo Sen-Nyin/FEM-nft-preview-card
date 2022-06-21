@@ -15,6 +15,10 @@
     left: 50%;
     box-shadow: -1rem 2rem 6rem rgba(0,0,0,.3);
 
+    @include bp.breakpoint(375,max) {
+        width: 32rem;
+    }
+
     &__image-box {
         width: 100%;
         position: relative;
