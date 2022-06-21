@@ -1,33 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+  <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="css/style.css">
   <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
 
-  Equilibrium #3429
-
-  Our Equilibrium collection promotes balance and calm.
-
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <!-- CARD CONTAINER -->
+<article class="card">
+<!-- IMAGE -->
+<figure class="card__image-box">
+  <img src="images/image-equilibrium.jpg" alt="Equilibrium Image" class="card__image">
+  <div class="card__image-overlay">
+    <img src="images/icon-view.svg" alt="Eye image" class="card__image-overlay-eye">
   </div>
+</figure>
+<header class="card__header">
+<h1 class="card__header-title">Equilibrium #3429</h1>
+<p class="card__header-subtext">Our Equilibrium collection promotes balance and calm.</p>
+</header>
+<main class="card__main">
+  <ul>
+    <li class="card__main-price">
+      <img src="images/icon-ethereum.svg" alt="Ethereum Icon" class="card__main-icon">
+      0.041 ETH
+    </li>
+    <li class="card__main-time">
+      <img src="images/icon-clock.svg" alt="Clock Icon" class="card__main-icon">
+      3 days left
+    </li>
+  </ul>
+  <div class="card__main-author">
+    <img src="images/image-avatar.png" alt="Author Image" class="card__main-author-img">
+    <p class="card__main-author-text">Creation of 
+      <span class="card__main-author-name">Jules Wyvern</span>
+    </p>
+  </div>
+</main>
+
+</article>
+
+  <!-- FOOTER -->
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">SenNyin</a>.
+  </footer>
 </body>
+
 </html>
